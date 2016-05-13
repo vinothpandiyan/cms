@@ -1,15 +1,22 @@
 {
     "name": "caritor/yii2-cms",
     "description": "Yii2 cms module",
+    "type": "yii2-extension",
     "license": "GNU GPLv2",
     "authors": [
         {
             "name": "VinothP",
-            "email": "vinoth.p@caritorsolutions.com"
+            "email": "vinoth.p@caritorsolutions.com",
+            "homepage":"http://caritorsolutions.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
+    "require": {        
+        "php": ">=5.4.0",
         "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "caritor\\cms\\": ""
+        }
     }
 }
