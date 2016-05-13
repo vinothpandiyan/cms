@@ -17,5 +17,5 @@ use yii\helpers\Html;
     <p><?= Html::a('Menus', ['/cms/menu/selectarea'], ['class'=>'btn btn-primary']) ?>
     <p> Widget : </p>
     <p> <code>use caritor\cms\widgets\CmsmenuWidget;</code>
-    <p><code><?= CmsmenuWidget::widget(['area_code' => 'header_top']) ?></code></p>
+    <p><code>CmsmenuWidget::widget(['area_code' => 'header_top'])</code></p>
 </div>
