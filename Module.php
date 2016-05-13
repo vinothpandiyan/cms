@@ -5,7 +5,7 @@ namespace caritor\cms;
 /**
  * cmsbackend module definition class
  */
-class cms extends \yii\base\Module
+class Module extends \yii\base\Module
 {
     /**
      * @inheritdoc
