@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 class CmsAsset extends AssetBundle
 {
     // the alias to assets folder in file system
-    public $sourcePath = '@vendor/caritor/yii2-cms-pages-menus/assets/source';
+    public $sourcePath = '@vendor/caritor/yii2-cms/assets/source';
     public $css = ['css/cms_menu.css'];
     public $js = [
       'js/jquery.nestable.js',

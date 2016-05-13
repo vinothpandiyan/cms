@@ -1,14 +1,14 @@
 <?php
 
-namespace caritor\cms\components;
+namespace caritor\cms\widgets;
 
-use yii\base\Widget;
+use Yii;
 use yii\helpers\Html;
 use caritor\cms\models\CmsMenu;
 use caritor\cms\models\CmsMenuArea;
 use yii\helpers\Json;
 
-Class CmsmenuWidget extends Widget {
+Class CmsmenuWidget extends \yii\base\Widget {
 
 	public $area_code;
 	public $menu_items;
