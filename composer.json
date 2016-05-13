@@ -12,10 +12,5 @@
     "prefer-stable" : true,
     "require": {
         "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "caritor\\cms\\": ""
-        }
     }
 }
